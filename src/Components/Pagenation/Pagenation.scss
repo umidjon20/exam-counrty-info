@@ -1,0 +1,22 @@
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+
+    .next{
+        cursor: pointer;
+        width: 120px;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 10px 0;
+        border-radius: 16px;
+        border:none;
+        background-color:var(--body--pagenation);
+        color: var(--body--title-h4-color);
+        transition: 0.3s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
